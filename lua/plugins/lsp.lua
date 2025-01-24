@@ -6,4 +6,3 @@ lspconfig.clangd.setup {
   root_dir = lspconfig.util.root_pattern("compile_commands.json", ".git"),
   single_file_support = true,
 }
-
