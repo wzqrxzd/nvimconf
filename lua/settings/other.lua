@@ -22,3 +22,6 @@ opt.wrap = false
 opt.fixeol = false
 opt.completeopt = 'menuone,noselect'
 vim.cmd [[autocmd BufEnter * set fo-=c fo-=r fo-=o]]
+
+opt.undofile = true
+opt.undodir = vim.fn.stdpath("state") .. "/undo"
